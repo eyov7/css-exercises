@@ -2,26 +2,46 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Changed to one below
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
+} */
 
-.small-para {
-  font-size: 14px;
+p.para {
+  color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
-
-.para {
   font-size: 22px;
 }
 
+/* Changed to one on bottom
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+} */
+
+p.para.small-para {
+  font-size: 14px;
+}
+
+/* Deleted
+.para {
+  font-size: 22px;
+} */
+
+/* modified to one below
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
-} 
+} */
+
+ #confirm-button.button.confirm{
+  background: green;
+  color: white;
+  font-weight: bold;
+ }
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,7 +49,14 @@ body {
   font-size: 20px;
 }
 
+/*
 .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+} */
+
+div.text .child{
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
